@@ -1370,6 +1370,9 @@ product__style--7
   14. Choose Us Area
 --------------------------------*/
 
+.home.resource__btn {
+  text-align: center;
+}
 
 .resource__btn {
     text-align: right;
@@ -1450,7 +1453,8 @@ product__style--7
     text-transform: capitalize;
 }
 .htc__choose__wrap {
-    padding: 114px 120px;
+    padding: 60px;
+    height: 320px;
 }
 .choose__container {
     display: -webkit-box;
@@ -3936,6 +3940,7 @@ a.shipping-calculator-button:hover{
   font-size: 14px !important;
   line-height: 22px !important;
   margin-bottom: 24px !important;
+  margin-right:0px;
 }
 .contact_info a {
   float: right;
