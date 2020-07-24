@@ -1335,6 +1335,7 @@ blockquote::before {
 }
 .htc__choose__wrap {
   padding: 40px 40px;
+  height: 360px;
 }
 .recent-post-dtl h6 {
   font-size: 14px;
@@ -1430,6 +1431,10 @@ padding: 16px 16px;
   .single__pro .foo {
     margin-bottom:24px;
   }
+    /*  mobile menu*/
+  .mobile-menu-area.mean-container {
+    top: -108px;
+  }
 }
 
 @media (max-width: 576px){
@@ -1457,5 +1462,13 @@ padding-left: 5px !important;
 }
 .product__menu button {
 padding: 16px 8px;
+}
+/*  mobile menu*/
+.mobile-menu-area.mean-container {
+top: -75px;
+}
+.htc__choose__wrap {
+  height: 360px;
+  padding: 30px 20px;
 }
 }
